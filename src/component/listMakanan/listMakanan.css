@@ -1,0 +1,38 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; 
+    padding: 0 20px;
+    max-width: 1200px;
+}
+
+.card{
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    position: relative;
+    border-radius: 12px;
+}
+
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.card .title{
+    position: absolute;
+    border-radius: 0 0 12px 12px;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+.card .title h2{
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #fff;
+}
