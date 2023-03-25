@@ -1,13 +1,3 @@
-.sidebar{
-    will-change: min-height;
-}
-
-.sidebar__inner{
-    transform: translate(0, 0); /* For browsers don't support translate3d. */
-    transform: translate3d(0, 0, 0);
-    will-change: position, transform;
-}
-
 .customer{
     display: flex;
     justify-content: space-between;
@@ -33,6 +23,8 @@
 }
 
 .customer .box i{
+    position: relative;
+    top: 8px;
     font-size: 47px;
     color: #495da7;
     background-color: #48abcc00;
@@ -44,11 +36,15 @@
     background-color: #48abcc00;
 }
 
+.new-cus{
+    background-color: #c3d8e1;
+}
+
 .new-cus h3{
     font-size: 30px;
     font-weight: 600;
     color: #000;
-    background-color: #70c6e34a;
+    background-color: #c3d8e1;
 }
 
 .dinein{
@@ -72,24 +68,32 @@
     font-size: 25px;
     color: #48abcc;
     background-color: #ffff;
+    margin-bottom: 5px;
 }
 
 
-.list-bill{
+.wrapper-list-bill{
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     padding: 20px;
     background-color: #ffff;
     line-height: 2.5;
 }
 
-.list-bill span{
+.wrapper-list-bill span{
     background-color: #ffff;
     color: #48abcc;
 }
 
-.list-bill .left-column, .right-column, p{
+.wrapper-list-bill .left-column, .right-column, p{
     background-color: #ffff;
+}
+
+.list-bill{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .clear{
