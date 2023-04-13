@@ -1,15 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container-admin{
+.container-admin {
     margin: 0 auto;
     max-width: 1200px;
 }
 
-tbody img{
+tbody img {
     width: 100px;
     height: 100px;
     aspect-ratio: 1/2;

@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     background-color: #000;
     color: #fff;
     padding: 10px;
@@ -7,7 +7,7 @@
     text-align: center;
 }
 
-.title{
+.title {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
@@ -15,14 +15,14 @@
     background-color: black;
 }
 
-.btn-login{
+.btn-login {
     background-color: #0d6efd;
     padding: 10px;
     border-radius: 5px;
     margin: 10px;
 }
 
-.btn-login a{
+.btn-login a {
     text-decoration: none;
     color: #fff;
     background-color: #0d6efd;
